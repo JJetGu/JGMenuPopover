@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>883C0F32-0A11-4E86-A367-E77A8114BA6D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JGMenuPopover</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B9C73182E02F9E4C03EDABF70CDE4C901930A1A9</key>
+		<string>https://git.oschina.net/JJet/NavItemMenuPopover.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JGMenuPopover/JGMenuPopover.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B9C73182E02F9E4C03EDABF70CDE4C901930A1A9</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.oschina.net/JJet/NavItemMenuPopover.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B9C73182E02F9E4C03EDABF70CDE4C901930A1A9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B9C73182E02F9E4C03EDABF70CDE4C901930A1A9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NavItemMenuPopover</string>
+		</dict>
+	</array>
+</dict>
+</plist>

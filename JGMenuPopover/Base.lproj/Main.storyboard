@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="33M-G1-heF">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="SPn-P0-b9n">
+            <objects>
+                <navigationController id="33M-G1-heF" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="I9a-qQ-nzW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="WZh-mP-VYU" kind="relationship" relationship="rootViewController" id="Y81-KD-MYH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6SJ-si-J2Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-49" y="379"/>
+        </scene>
+        <!--MenuPopover-->
+        <scene sceneID="TjF-6X-X4z">
+            <objects>
+                <viewController id="WZh-mP-VYU" customClass="JGMainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ndr-La-boO"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mh7-EQ-5va"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="y8P-vx-fiR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="MenuPopover" id="fE1-dS-APC">
+                        <barButtonItem key="leftBarButtonItem" title="LeftDrop" id="acz-tB-YfM">
+                            <connections>
+                                <action selector="leftDropAction:" destination="WZh-mP-VYU" id="jl8-va-6Uy"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="rightDrop" id="Pjw-a5-MRN">
+                            <connections>
+                                <action selector="rightDropAction:" destination="WZh-mP-VYU" id="2bX-mv-mUs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dx3-ma-9Lv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="599" y="379"/>
+        </scene>
+    </scenes>
+</document>

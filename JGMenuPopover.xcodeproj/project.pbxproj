@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04121AFB1B31AB0700966662 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04121AFA1B31AB0700966662 /* main.m */; };
+		04121AFE1B31AB0700966662 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04121AFD1B31AB0700966662 /* AppDelegate.m */; };
+		04121B041B31AB0700966662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04121B021B31AB0700966662 /* Main.storyboard */; };
+		04121B061B31AB0700966662 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04121B051B31AB0700966662 /* Images.xcassets */; };
+		04121B091B31AB0700966662 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04121B071B31AB0700966662 /* LaunchScreen.xib */; };
+		04121B151B31AB0700966662 /* JGMenuPopoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04121B141B31AB0700966662 /* JGMenuPopoverTests.m */; };
+		04121B251B31ABB200966662 /* DefaultLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 04121B221B31ABB200966662 /* DefaultLine.png */; };
+		04121B261B31ABB200966662 /* options_pointer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04121B231B31ABB200966662 /* options_pointer@2x.png */; };
+		04121B271B31ABB200966662 /* options_pointer@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04121B241B31ABB200966662 /* options_pointer@3x.png */; };
+		04121B2A1B31ABE300966662 /* JGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04121B291B31ABE300966662 /* JGMainViewController.m */; };
+		04121B2D1B31AD3F00966662 /* JGMenuPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 04121B2C1B31AD3F00966662 /* JGMenuPopover.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04121B0F1B31AB0700966662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04121AED1B31AB0700966662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04121AF41B31AB0700966662;
+			remoteInfo = JGMenuPopover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04121AF51B31AB0700966662 /* JGMenuPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGMenuPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04121AF91B31AB0700966662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04121AFA1B31AB0700966662 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04121AFC1B31AB0700966662 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04121AFD1B31AB0700966662 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04121B031B31AB0700966662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04121B051B31AB0700966662 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04121B081B31AB0700966662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04121B0E1B31AB0700966662 /* JGMenuPopoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGMenuPopoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04121B131B31AB0700966662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04121B141B31AB0700966662 /* JGMenuPopoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGMenuPopoverTests.m; sourceTree = "<group>"; };
+		04121B221B31ABB200966662 /* DefaultLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefaultLine.png; sourceTree = "<group>"; };
+		04121B231B31ABB200966662 /* options_pointer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "options_pointer@2x.png"; sourceTree = "<group>"; };
+		04121B241B31ABB200966662 /* options_pointer@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "options_pointer@3x.png"; sourceTree = "<group>"; };
+		04121B281B31ABE300966662 /* JGMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGMainViewController.h; sourceTree = "<group>"; };
+		04121B291B31ABE300966662 /* JGMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGMainViewController.m; sourceTree = "<group>"; };
+		04121B2B1B31AD3F00966662 /* JGMenuPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGMenuPopover.h; sourceTree = "<group>"; };
+		04121B2C1B31AD3F00966662 /* JGMenuPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGMenuPopover.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04121AF21B31AB0700966662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04121B0B1B31AB0700966662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04121AEC1B31AB0700966662 = {
+			isa = PBXGroup;
+			children = (
+				04121AF71B31AB0700966662 /* JGMenuPopover */,
+				04121B111B31AB0700966662 /* JGMenuPopoverTests */,
+				04121AF61B31AB0700966662 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04121AF61B31AB0700966662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04121AF51B31AB0700966662 /* JGMenuPopover.app */,
+				04121B0E1B31AB0700966662 /* JGMenuPopoverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04121AF71B31AB0700966662 /* JGMenuPopover */ = {
+			isa = PBXGroup;
+			children = (
+				04121AFC1B31AB0700966662 /* AppDelegate.h */,
+				04121AFD1B31AB0700966662 /* AppDelegate.m */,
+				04121B1F1B31AB8500966662 /* Controller */,
+				04121B1E1B31AB6C00966662 /* MenuPopoverView */,
+				04121B021B31AB0700966662 /* Main.storyboard */,
+				04121B051B31AB0700966662 /* Images.xcassets */,
+				04121B071B31AB0700966662 /* LaunchScreen.xib */,
+				04121AF81B31AB0700966662 /* Supporting Files */,
+			);
+			path = JGMenuPopover;
+			sourceTree = "<group>";
+		};
+		04121AF81B31AB0700966662 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04121B201B31ABA400966662 /* Resources */,
+				04121AF91B31AB0700966662 /* Info.plist */,
+				04121AFA1B31AB0700966662 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04121B111B31AB0700966662 /* JGMenuPopoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				04121B141B31AB0700966662 /* JGMenuPopoverTests.m */,
+				04121B121B31AB0700966662 /* Supporting Files */,
+			);
+			path = JGMenuPopoverTests;
+			sourceTree = "<group>";
+		};
+		04121B121B31AB0700966662 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04121B131B31AB0700966662 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04121B1E1B31AB6C00966662 /* MenuPopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				04121B2B1B31AD3F00966662 /* JGMenuPopover.h */,
+				04121B2C1B31AD3F00966662 /* JGMenuPopover.m */,
+			);
+			path = MenuPopoverView;
+			sourceTree = "<group>";
+		};
+		04121B1F1B31AB8500966662 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04121B281B31ABE300966662 /* JGMainViewController.h */,
+				04121B291B31ABE300966662 /* JGMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04121B201B31ABA400966662 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04121B211B31ABA400966662 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04121B211B31ABA400966662 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				04121B221B31ABB200966662 /* DefaultLine.png */,
+				04121B231B31ABB200966662 /* options_pointer@2x.png */,
+				04121B241B31ABB200966662 /* options_pointer@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04121AF41B31AB0700966662 /* JGMenuPopover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04121B181B31AB0700966662 /* Build configuration list for PBXNativeTarget "JGMenuPopover" */;
+			buildPhases = (
+				04121AF11B31AB0700966662 /* Sources */,
+				04121AF21B31AB0700966662 /* Frameworks */,
+				04121AF31B31AB0700966662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGMenuPopover;
+			productName = JGMenuPopover;
+			productReference = 04121AF51B31AB0700966662 /* JGMenuPopover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04121B0D1B31AB0700966662 /* JGMenuPopoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04121B1B1B31AB0700966662 /* Build configuration list for PBXNativeTarget "JGMenuPopoverTests" */;
+			buildPhases = (
+				04121B0A1B31AB0700966662 /* Sources */,
+				04121B0B1B31AB0700966662 /* Frameworks */,
+				04121B0C1B31AB0700966662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04121B101B31AB0700966662 /* PBXTargetDependency */,
+			);
+			name = JGMenuPopoverTests;
+			productName = JGMenuPopoverTests;
+			productReference = 04121B0E1B31AB0700966662 /* JGMenuPopoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04121AED1B31AB0700966662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Free;
+				TargetAttributes = {
+					04121AF41B31AB0700966662 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					04121B0D1B31AB0700966662 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 04121AF41B31AB0700966662;
+					};
+				};
+			};
+			buildConfigurationList = 04121AF01B31AB0700966662 /* Build configuration list for PBXProject "JGMenuPopover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04121AEC1B31AB0700966662;
+			productRefGroup = 04121AF61B31AB0700966662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04121AF41B31AB0700966662 /* JGMenuPopover */,
+				04121B0D1B31AB0700966662 /* JGMenuPopoverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04121AF31B31AB0700966662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04121B041B31AB0700966662 /* Main.storyboard in Resources */,
+				04121B091B31AB0700966662 /* LaunchScreen.xib in Resources */,
+				04121B271B31ABB200966662 /* options_pointer@3x.png in Resources */,
+				04121B261B31ABB200966662 /* options_pointer@2x.png in Resources */,
+				04121B061B31AB0700966662 /* Images.xcassets in Resources */,
+				04121B251B31ABB200966662 /* DefaultLine.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04121B0C1B31AB0700966662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04121AF11B31AB0700966662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04121AFE1B31AB0700966662 /* AppDelegate.m in Sources */,
+				04121B2A1B31ABE300966662 /* JGMainViewController.m in Sources */,
+				04121AFB1B31AB0700966662 /* main.m in Sources */,
+				04121B2D1B31AD3F00966662 /* JGMenuPopover.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04121B0A1B31AB0700966662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04121B151B31AB0700966662 /* JGMenuPopoverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04121B101B31AB0700966662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04121AF41B31AB0700966662 /* JGMenuPopover */;
+			targetProxy = 04121B0F1B31AB0700966662 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04121B021B31AB0700966662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04121B031B31AB0700966662 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04121B071B31AB0700966662 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04121B081B31AB0700966662 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04121B161B31AB0700966662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04121B171B31AB0700966662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04121B191B31AB0700966662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JGMenuPopover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04121B1A1B31AB0700966662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JGMenuPopover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04121B1C1B31AB0700966662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JGMenuPopoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGMenuPopover.app/JGMenuPopover";
+			};
+			name = Debug;
+		};
+		04121B1D1B31AB0700966662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JGMenuPopoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGMenuPopover.app/JGMenuPopover";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04121AF01B31AB0700966662 /* Build configuration list for PBXProject "JGMenuPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04121B161B31AB0700966662 /* Debug */,
+				04121B171B31AB0700966662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04121B181B31AB0700966662 /* Build configuration list for PBXNativeTarget "JGMenuPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04121B191B31AB0700966662 /* Debug */,
+				04121B1A1B31AB0700966662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04121B1B1B31AB0700966662 /* Build configuration list for PBXNativeTarget "JGMenuPopoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04121B1C1B31AB0700966662 /* Debug */,
+				04121B1D1B31AB0700966662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04121AED1B31AB0700966662 /* Project object */;
+}
